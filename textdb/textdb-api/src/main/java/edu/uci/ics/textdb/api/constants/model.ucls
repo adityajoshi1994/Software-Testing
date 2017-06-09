@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <enumeration id="1" language="java" name="edu.uci.ics.textdb.api.constants.DataConstants.NumberMatchingType" 
+    project="textdb-api" file="/textdb-api/src/main/java/edu/uci/ics/textdb/api/constants/DataConstants.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="347" x="69" y="50"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="2" language="java" name="edu.uci.ics.textdb.api.constants.DataConstants.KeywordMatchingType" 
+    project="textdb-api" file="/textdb-api/src/main/java/edu/uci/ics/textdb/api/constants/DataConstants.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="330" x="456" y="50"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="3" language="java" name="edu.uci.ics.textdb.api.constants.DataConstants.TextdbProject" 
+    project="textdb-api" file="/textdb-api/src/main/java/edu/uci/ics/textdb/api/constants/DataConstants.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="263" width="227" x="826" y="50"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="edu.uci.ics.textdb.api.constants.DataConstants" project="textdb-api" 
+    file="/textdb-api/src/main/java/edu/uci/ics/textdb/api/constants/DataConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="173" width="198" x="456" y="-163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="5">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <nesting id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
